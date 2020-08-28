@@ -1,7 +1,8 @@
 #header-nav{
 background-color: #FF00FF;
 text-align: left;
-position: absolute;
+border: 0;
+float: top;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
   text-decoration: none;
@@ -10,13 +11,13 @@ h2{
   text-align:center;
 }
 section{
-  height:700px; 
+  height:auto; 
   
   padding: 10px;
   margin: 20px;
   display:block;
   border: 2px solid black;
-  background-color: #FFFF00;
+  background-color: #FF0000;
 }
 .row{
   position: relative;
@@ -75,7 +76,7 @@ h3{
   }
 }
 
-@media(min-width:992 px) and (max-width: 1199px){
+@media(min-width:992px) and (max-width: 1199px){
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
     float: left;
   }
@@ -200,8 +201,3 @@ h3{
     width:100%;
   }
 }
-
-
-
-
-
