@@ -1,7 +1,10 @@
 #header-nav{
 background-color: #FF00FF;
 text-align: left;
-
+position: absolute;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
 }
 h2{
   text-align:center;
@@ -21,9 +24,9 @@ section{
 .container{
   position: relative;
 }
-.body{
+/*.body{
   position: relative;
-}
+}*/
 h3{
   text-align: center;
 }
