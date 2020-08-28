@@ -15,6 +15,15 @@ section{
   border: 2px solid black;
   background-color: #F4D000;
 }
+.row{
+  position: relative;
+}
+.container{
+  position: relative;
+}
+.body{
+  position: relative;
+}
 h3{
   text-align: center;
 }
