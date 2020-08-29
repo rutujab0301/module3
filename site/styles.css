@@ -2,18 +2,32 @@
 background-color: #FF00FF;
 text-align: left;
 border: 0;
-margin: -10px -10px -10px;
+margin: -20px -10px -10px;
 float: top;
 }
 .navbar-brand a, .navbar-brand a:focus{
   text-decoration: none;
 }
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  text-align: center;
+}
+h1{
+  padding: 20px;
+}
 h2{
   text-align:center;
 }
 section{
-  height:auto; 
-  
+  height:auto;
   padding: 10px;
   margin: 20px;
   display:block;
