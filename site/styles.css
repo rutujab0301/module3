@@ -2,9 +2,10 @@
 background-color: #FF00FF;
 text-align: left;
 border: 0;
+margin: -10px -10px -10px;
 float: top;
 }
-.navbar-brand a{
+.navbar-brand a, .navbar-brand a:focus{
   text-decoration: none;
 }
 h2{
@@ -31,6 +32,7 @@ section{
 h3{
   text-align: center;
 }
+
 .row{
   width: 100%;
 }
