@@ -11,45 +11,53 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   	<title>Website</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF18uGJpLSa9DkK0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<div class="container">
+				<div class="row">
+				<div class="col-xs-12">
 				<div class="navbar-header">
 					
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data target="#collapsable-nav" aria-expanded="false">
-						<span class="sr-only">Toggle Navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+					<div class="naavbar-brand">
+							<a href="page.html"><h1>Food, LLC</h1></a>
 					
-				</div>
 
-				<div class="navbar-collapse collapse" id="collapsable-nav" >
-					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-						<li>
-							<a href="#">
-							<span><br class="hidden-xs">Chicken</span></a>
-						</li>
-						<li>
-							<a href="#">
-							<span><br class="hidden-xs">Beef</span></a>
-						</li>
-						<li>
-							<a href="#">
-							<span><br class="hidden-xs">Sushi</span></a>
-						</li>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" >
 						
-					</ul>
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					
+					
+
+							<div class="collapse navbar-collapse" id="navbarCollapse">
+								<ul id="nav-list" class=" nav navbar-nav nav-pills nav-stacked mr-auto navbar-right">
+									<li class="nav-item">
+										<a class="nav-link js-scroll-trigger" href="#">Chicken</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link js-scroll-trigger" href="#">Beef</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link js-scroll-trigger" href="#">Sushi</a>
+									</li>
+						
+								</ul>
+							</div>
+				</div>		
 				</div>
-				
+					</div>
+				</div>
 			</div>
 
-			<h1>Food, LLC</h1>
-
+			
 		</nav>
 		
 	</header>
@@ -77,5 +85,11 @@
 		</div>
 	</div>
 	
+	<script type="text/javascript">    
+           $('.js-scroll-trigger').click(function() {
+    	$('.navbar-collapse').collapse('hide');
+  	});
+      </script>
+
 </body>
 </html>
